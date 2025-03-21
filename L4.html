@@ -1,12 +1,29 @@
 <!DOCTYPE html>
-
 <html>
 
 <body>
     <!--Image-->
     <h1>Ocean Waves Image</h1>
-    <img src="oceanwaves.jpg" alt="oceanwaves" width="400" height="400" >
+    <img src="oceanwaves.jpg" alt="oceanwaves" width="450" height="450" >
 
+<!--Audio-->
+<h1> Displaying Audio</h1>
+<audio controls autoplay loop > <!--loop muted-->  
+    <source src="relaxing.mp3" type="audio/mpeg"> <!--Type helps the browser determine if it can play the file before trying to load it.-->
+     Your browser does not support the audio tag.
+</audio>
+
+<!--Video-->
+<h1>Displaying Video</h1>
+<video width="450" height="450" controls>
+    <source src="videofwaves.mp4" type="video/mp4">
+    Your browser does not support the video tag
+</video>
+
+
+<!--iFrame-->
+<h1>Using Iframe you can show any online in your project</h1>
+<iframe width="450" height="350" src="https://www.youtube.com/embed/oebE0cb86n8?si=Z_zCv_noGFxQ1suK"></iframe>
 </body>
 
 </html>
